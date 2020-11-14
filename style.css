@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Titillium+Web&display=swap');
+*{
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+html,body , .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*----------------------------------*/
+
+.starter{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 400px;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+}
+
+.navi{
+    text-align: center;
+    word-spacing: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+   
+}
+
+.fame{
+     float: left;
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+    color: #f5f6fa;
+    font-size: 20px;
+    padding-left: 12%;
+}
+
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 3%;
+    word-spacing: 1px;
+    font-size: 40px;
+    color: white;
+}
+
+.succes{
+    color: #0097e6;
+}
+
+.para{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;    
+    margin: 3% 30%;
+    color: white;   
+    font-size: 18px;
+}
+
+.buttons{
+    
+    text-align: center;
+    
+    
+    
+ 
+}
+
+.button1{
+    border: #0097e6 solid; 
+    font-size: 20px; 
+    background-color: #0097e6;  
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+.button2{
+    border: white solid;   
+    color: #192a56;
+    font-size: 20px; 
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;       
+}
